@@ -160,8 +160,14 @@ for(;;) {
 		Temp2 = t2;
 
 		uart1_SendStr("temperature=");
+		uart1_SendNum(t1);
+
+		uart1_SendStr("temperature=");
 		uart1_SendNum(t2);
-	  // log it to the file on the SD card
+
+
+
+		// log it to the file on the SD card
 	  Ecrire_Temperature(Temp1, Temp2);
 
 	  //si une des temperatures est supperieure a son seuil
