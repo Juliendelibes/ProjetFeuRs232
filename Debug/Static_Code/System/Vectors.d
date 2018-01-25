@@ -55,6 +55,9 @@ Static_Code/System/Vectors.o: ../Static_Code/System/Vectors.c \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/interruption_10s.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TimerIntLdd2.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AD1.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/ADC_PDD.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Sources/Events.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/PE_Error.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/PE_Const.h \
@@ -93,7 +96,9 @@ Static_Code/System/Vectors.o: ../Static_Code/System/Vectors.c \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/ExtIntLdd1.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/interruption_10s.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TimerIntLdd2.h \
- D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AD1.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h
 
 D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/PE_Types.h:
 
@@ -207,6 +212,12 @@ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TimerIntLdd2.h:
 
 D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h:
 
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AD1.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/ADC_PDD.h:
+
 D:/Tempprojet/cartesd_temperature_gsm_ok01/Sources/Events.h:
 
 D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/PE_Error.h:
@@ -284,3 +295,7 @@ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/interruption_10s.h:
 D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TimerIntLdd2.h:
 
 D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AD1.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h:

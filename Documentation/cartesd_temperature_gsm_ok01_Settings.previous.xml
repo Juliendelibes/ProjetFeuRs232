@@ -1315,17 +1315,17 @@
         <Template v="AsynchroForTerminal" />
         <Properties>
           <Component_name v="Inhr1" />
-          <Channel v="UART0" />
+          <Channel v="UART3" />
           <boolgroup name="Interrupt service/event" v="Disabled" />
           <group name="Settings">
             <Parity v="none" />
             <Width v="8 bits" />
             <Stop_bit v="1" />
             <boolgroup name="Receiver" v="Enabled">
-              <RxD v="PTB16/SPI1_SOUT/UART0_RX/FTM_CLKIN0/FB_AD17/EWM_IN" />
+              <RxD v="PTC16/UART3_RX/ENET0_1588_TMR0/FB_CS5_b/FB_TSIZ1/FB_BE23_16_BLS15_8_b" />
             </boolgroup>
             <boolgroup name="Transmitter" v="Enabled">
-              <TxD v="PTB17/SPI1_SIN/UART0_TX/FTM_CLKIN1/FB_AD16/EWM_OUT_b" />
+              <TxD v="PTC17/UART3_TX/ENET0_1588_TMR1/FB_CS4_b/FB_TSIZ0/FB_BE31_24_BLS7_0_b" />
             </boolgroup>
             <Baud_rate v="115200 baud" />
             <Break_signal v="Disabled" />
@@ -1350,7 +1350,7 @@
               <Enabled v="Y" />
               <Properties>
                 <Component_name v="ASerialLdd1" />
-                <Device v="UART0" />
+                <Device v="UART3" />
                 <boolgroup name="Interrupt service/event" v="Disabled" />
                 <group name="Settings">
                   <Data_width v="8 bits" />
@@ -1365,10 +1365,10 @@
                   <Receiver_input v="Not inverted" />
                   <Break_generation_length v="10/11 bits" />
                   <boolgroup name="Receiver" v="Enabled">
-                    <RxD v="PTB16/SPI1_SOUT/UART0_RX/FTM_CLKIN0/FB_AD17/EWM_IN" />
+                    <RxD v="PTC16/UART3_RX/ENET0_1588_TMR0/FB_CS5_b/FB_TSIZ1/FB_BE23_16_BLS15_8_b" />
                   </boolgroup>
                   <boolgroup name="Transmitter" v="Enabled">
-                    <TxD v="PTB17/SPI1_SIN/UART0_TX/FTM_CLKIN1/FB_AD16/EWM_OUT_b" />
+                    <TxD v="PTC17/UART3_TX/ENET0_1588_TMR1/FB_CS4_b/FB_TSIZ0/FB_BE31_24_BLS7_0_b" />
                   </boolgroup>
                   <enumgroup name="Flow control" v="None">
                     <EmptySection_DummyValue />

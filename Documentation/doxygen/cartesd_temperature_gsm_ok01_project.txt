@@ -41,6 +41,7 @@
 - \subpage ExtIntLdd1
 - \subpage TU2
 - \subpage TimerIntLdd2
+- \subpage AdcLdd1
 
 */
 
@@ -88,6 +89,7 @@
 - \subpage ExtIntLdd1
 - \subpage TU2
 - \subpage TimerIntLdd2
+- \subpage AdcLdd1
 
 */
 

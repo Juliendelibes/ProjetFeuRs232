@@ -6,7 +6,7 @@
 **     Version     : Component 01.046, Driver 01.00, CPU db: 3.00.000
 **     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-01-23, 09:00, # CodeGen: 8
+**     Date/Time   : 2018-01-25, 16:39, # CodeGen: 13
 **
 **     Copyright : 1997 - 2015 Freescale Semiconductor, Inc. 
 **     All Rights Reserved.
@@ -67,8 +67,8 @@
 #include "TimerCarteSD.h"
 #include "TimerIntLdd1.h"
 #include "TU1.h"
-#include "FX1.h"
 #include "UTIL1.h"
+#include "FX1.h"
 #include "GI2C1.h"
 #include "CI2C1.h"
 #include "SPI0.h"
@@ -90,6 +90,8 @@
 #include "interruption_10s.h"
 #include "TimerIntLdd2.h"
 #include "TU2.h"
+#include "AD1.h"
+#include "AdcLdd1.h"
 
 
 /*

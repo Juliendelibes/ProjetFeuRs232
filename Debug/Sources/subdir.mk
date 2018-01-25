@@ -4,6 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../Sources/Alimentation.c \
 ../Sources/BB_Projet.c \
 ../Sources/Events.c \
 ../Sources/RTC.c \
@@ -13,6 +14,7 @@ C_SRCS += \
 ../Sources/stockage_information.c 
 
 OBJS += \
+./Sources/Alimentation.o \
 ./Sources/BB_Projet.o \
 ./Sources/Events.o \
 ./Sources/RTC.o \
@@ -22,6 +24,7 @@ OBJS += \
 ./Sources/stockage_information.o 
 
 C_DEPS += \
+./Sources/Alimentation.d \
 ./Sources/BB_Projet.d \
 ./Sources/Events.d \
 ./Sources/RTC.d \

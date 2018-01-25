@@ -80,8 +80,11 @@ Sources/RTC.o: ../Sources/RTC.c ../Sources/BB_Projet.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TimerIntLdd2.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h \
- D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/System/PDD_Includes.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AD1.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/ADC_PDD.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/System/PDD_Includes.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/CAN_PDD.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/CMP_PDD.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/CMT_PDD.h \
@@ -285,9 +288,15 @@ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TimerIntLdd2.h:
 
 D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h:
 
-D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/System/PDD_Includes.h:
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AD1.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h:
 
 D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/ADC_PDD.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/System/PDD_Includes.h:
 
 D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/CAN_PDD.h:
 

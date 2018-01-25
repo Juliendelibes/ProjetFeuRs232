@@ -31,7 +31,9 @@ Generated_Code/PE_LDD.o: ../Generated_Code/PE_LDD.c \
  ../Generated_Code/ExtIntLdd1.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/PORT_PDD.h \
  ../Generated_Code/interruption_10s.h ../Generated_Code/TimerIntLdd2.h \
- ../Generated_Code/TU2.h
+ ../Generated_Code/TU2.h ../Generated_Code/AD1.h \
+ ../Generated_Code/AdcLdd1.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/ADC_PDD.h
 
 ../Generated_Code/PE_LDD.h:
 
@@ -138,3 +140,9 @@ D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/PORT_PDD.h:
 ../Generated_Code/TimerIntLdd2.h:
 
 ../Generated_Code/TU2.h:
+
+../Generated_Code/AD1.h:
+
+../Generated_Code/AdcLdd1.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/ADC_PDD.h:

@@ -4,7 +4,9 @@
  *  Created on: 2 juin 2017
  *      Author: finestc
  */
-/*#include "Cpu.h"
+
+
+#include "Cpu.h"
 #include "Events.h"
 #include "SPI0.h"
 #include "SMasterLdd1.h"
@@ -18,7 +20,7 @@
 #include "IO_Map.h"
 #include "PDD_Includes.h"
 #include "Init_Config.h"
-#include "Temperature.h"*/
+#include "Temperature.h"
 #include "BB_Projet.h"
 
 

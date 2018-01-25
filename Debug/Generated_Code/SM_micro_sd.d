@@ -79,6 +79,10 @@ Generated_Code/SM_micro_sd.o: ../Generated_Code/SM_micro_sd.c \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TimerIntLdd2.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AD1.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/ADC_PDD.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h \
  ../Generated_Code/Carte_microSD.h ../Generated_Code/SM_micro_sd.h
 
 D:/Tempprojet/cartesd_temperature_gsm_ok01/Sources/Events.h:
@@ -240,6 +244,14 @@ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h:
 D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TimerIntLdd2.h:
 
 D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AD1.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/ADC_PDD.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h:
 
 ../Generated_Code/Carte_microSD.h:
 

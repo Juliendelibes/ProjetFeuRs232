@@ -7,7 +7,7 @@
 **     Version     : Component 01.030, Driver 01.00, CPU db: 3.00.000
 **     Repository  : Legacy User Components
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-01-23, 09:00, # CodeGen: 8
+**     Date/Time   : 2018-01-25, 14:40, # CodeGen: 12
 **     Abstract    :
 **
 The module implements timeout functionality. With this implementation,

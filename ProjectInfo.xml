@@ -53,7 +53,9 @@
   </PATHS>
   <FILES>
     <GeneratedCs>
+      <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\AD1.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\ASerialLdd1.c</PathName>
+      <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\AdcLdd1.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\BitIoLdd1.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\BitIoLdd2.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\BitIoLdd3.c</PathName>
@@ -92,6 +94,7 @@
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\interruption_10s.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\uart1.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Project_Settings\Startup_Code\startup.c</PathName>
+      <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\Alimentation.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\BB_Projet.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\Events.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\RTC.c</PathName>
@@ -104,7 +107,9 @@
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Static_Code\System\Vectors.c</PathName>
     </GeneratedCs>
     <GeneratedHs>
+      <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\AD1.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\ASerialLdd1.h</PathName>
+      <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\AdcLdd1.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\BitIoLdd1.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\BitIoLdd2.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\BitIoLdd3.h</PathName>
@@ -152,6 +157,7 @@
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\integer.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\interruption_10s.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\uart1.h</PathName>
+      <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\Alimentation.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\BB_Projet.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\Events.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\RTC.h</PathName>

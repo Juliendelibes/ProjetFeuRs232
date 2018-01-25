@@ -66,6 +66,8 @@
 #include "interruption_10s.h"
 #include "TimerIntLdd2.h"
 #include "TU2.h"
+#include "AD1.h"
+#include "AdcLdd1.h"
 #include "PE_Types.h"
 #include "TU2.h"*/
 /* Including shared modules, which are used for whole project */
@@ -154,20 +156,14 @@ for(;;) {
 	if(int_10s == 1) //chaque 10 secondes
 	{
 		//lecture des temperatures
+
+
 		t1=Temperature1();
 		t2=Temperature2();
 		Temp1 = t1;
 		Temp2 = t2;
 
-		uart1_SendStr("temperature=");
-		uart1_SendNum(t1);
-
-		uart1_SendStr("temperature=");
-		uart1_SendNum(t2);
-
-
-
-		// log it to the file on the SD card
+	  // log it to the file on the SD card
 	  Ecrire_Temperature(Temp1, Temp2);
 
 	  //si une des temperatures est supperieure a son seuil

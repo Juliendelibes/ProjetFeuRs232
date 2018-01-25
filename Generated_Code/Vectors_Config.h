@@ -61,8 +61,8 @@
 #include "TimerCarteSD.h"
 #include "TimerIntLdd1.h"
 #include "TU1.h"
-#include "FX1.h"
 #include "UTIL1.h"
+#include "FX1.h"
 #include "GI2C1.h"
 #include "CI2C1.h"
 #include "SPI0.h"
@@ -84,6 +84,8 @@
 #include "interruption_10s.h"
 #include "TimerIntLdd2.h"
 #include "TU2.h"
+#include "AD1.h"
+#include "AdcLdd1.h"
 #include "Events.h"
 
 #ifdef __cplusplus
@@ -148,7 +150,7 @@ extern "C" {
 #define VECTOR_52         (tIsrFunc)&UnhandledInterrupt         /* 0x34 -    ivINT_UART2_ERR                unused by PE */
 #define VECTOR_53         (tIsrFunc)&UnhandledInterrupt         /* 0x35 -    ivINT_UART3_RX_TX              unused by PE */
 #define VECTOR_54         (tIsrFunc)&UnhandledInterrupt         /* 0x36 -    ivINT_UART3_ERR                unused by PE */
-#define VECTOR_55         (tIsrFunc)&UnhandledInterrupt         /* 0x37 -    ivINT_ADC0                     unused by PE */
+#define VECTOR_55         (tIsrFunc)&AdcLdd1_MeasurementCompleteInterrupt /* 0x37 112 ivINT_ADC0            used by PE */
 #define VECTOR_56         (tIsrFunc)&UnhandledInterrupt         /* 0x38 -    ivINT_CMP0                     unused by PE */
 #define VECTOR_57         (tIsrFunc)&UnhandledInterrupt         /* 0x39 -    ivINT_CMP1                     unused by PE */
 #define VECTOR_58         (tIsrFunc)&TU1_Interrupt              /* 0x3A 112  ivINT_FTM0                     used by PE */

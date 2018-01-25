@@ -123,6 +123,7 @@ void APP_Run(void) {
 
   int16_t Temp1,Temp2;
   uint8_t res;
+  	 int temperature1max,temperature2max;
 
   /* SD card detection: PTE6 with pull-down! */
   PORT_PDD_SetPinPullSelect(PORTE_BASE_PTR, 6, PORT_PDD_PULL_DOWN);
@@ -134,24 +135,17 @@ void APP_Run(void) {
   if (FAT1_mount(&fileSystemObject, (const TCHAR*)"0", 1) != FR_OK) { /* mount file system */
     Err();
   }
-/*  for(;;) {
-	  t1=Temperature1();
-	  t2=Temperature2();
-	  Temp1 = t1;
-	  Temp2 = t2;
-    /* log it to the file on the SD card
-    Ecrire_Temperature(Temp1, Temp2);
-
-    if( (t1>t1m) || (t2>t2m) )
-    {
-    	Envoie_Alerte(tel1);		// envoie d'un SMS a chaque mesure
-    }
 
 
+ for(;;)
+ 	 {
+	 Ecrire_Tmax(230,510); // ecrire dans la carte sd
+	 WAIT1_Waitms(1000);
+	 Lire_Tmax(); //aller lire la valeur de tmax dans la carte sd
+	 temperature1max=t1m;// creation d'une variable locale pour voir les valeurs s'afficher
+	 temperature2max=t2m;
 
-    /* do this every 10 second
-    WAIT1_Waitms(10000);
-  }*/
+ 	 }
 }
 
 void Ecrire_Tmax(int t1m, int t2m)
@@ -206,10 +200,14 @@ write_buf[0] = '\0';
 	(void)FAT1_close(&fp);
 }
 void Lire_Tmax()
+
 {
+	extern int t1m;
+	extern int t2m;
+
 	UINT bw;
 	uint8_t write_buf[48];
-	uint8_t chaine_stockee[48];
+	uint8_t trame[21];	//T1max:218\T2max:510
 	UINT br;
 	PORT_PDD_SetPinPullSelect(PORTE_BASE_PTR, 6, PORT_PDD_PULL_DOWN);
 	PORT_PDD_SetPinPullEnable(PORTE_BASE_PTR, 6, PORT_PDD_PULL_ENABLE);
@@ -226,14 +224,23 @@ void Lire_Tmax()
 	{
 		  Err();
 	}
-	if (FAT1_read(&fp,chaine_stockee,21,&br)!=FR_OK)
+	if (FAT1_read(&fp,trame,21,&br)!=FR_OK)
+
 		{
+
 		  Err();
+		}
+	else
+	{
+		t1m=(trame[6]-0x30)*100+(trame[7]-0x30)*10+(trame[8]-0x30);
+		t2m=(trame[16]-0x30)*100+(trame[17]-0x30)*10+(trame[18]-0x30);
+		//ecrire le calcul pour passé de ascii au nombre  avec calcul de t1max et t2max
 	}
-		if (FAT1_read(&fp, write_buf, UTIL1_strlen((char*)write_buf), &bw)!=FR_OK) {
+	/*	if (FAT1_read(&fp, write_buf, UTIL1_strlen((char*)write_buf), &bw)!=FR_OK) {
 		      (void)FAT1_close(&fp);
 		      Err();
 		    }
+	*/
 		(void)FAT1_close(&fp);
 }
 void Lire_Tel()

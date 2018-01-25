@@ -81,6 +81,10 @@ Generated_Code/Cpu.o: ../Generated_Code/Cpu.c ../Generated_Code/Cpu.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TimerIntLdd2.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AD1.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/ADC_PDD.h \
+ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h \
  ../Generated_Code/Init_Config.h ../Generated_Code/CPU_Config.h
 
 ../Generated_Code/Cpu.h:
@@ -252,6 +256,14 @@ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h:
 D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TimerIntLdd2.h:
 
 D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/TU2.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AD1.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Static_Code/PDD/ADC_PDD.h:
+
+D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/AdcLdd1.h:
 
 ../Generated_Code/Init_Config.h:
 
