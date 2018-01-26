@@ -123,7 +123,7 @@ Sources/stockage_information.o: ../Sources/stockage_information.c \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/Init_Config.h \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/CPU_Config.h \
  ../Sources/stockage_information.h ../Sources/Temperature.h \
- ../Sources/alerteGSM.h ../Sources/RTC.h
+ ../Sources/alerteGSM.h ../Sources/RTC.h ../Sources/Test_Alimentation.h
 
 ../Sources/BB_Projet.h:
 
@@ -378,3 +378,5 @@ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/CPU_Config.h:
 ../Sources/alerteGSM.h:
 
 ../Sources/RTC.h:
+
+../Sources/Test_Alimentation.h:

@@ -140,15 +140,15 @@ TmDt1_GetDate(&Date1);
 TmDt1_SetTime(10,05,30,0);
   /* Write your code here */
 
-Ecrire_Tel(tel1);
-Ecrire_Tmax(t1m,t2m);
+/*Ecrire_Tel(tel1);
+Ecrire_Tmax(t1m,t2m);*/
 
 //t1=Temperature1();
 //t2=Temperature2();
 
-Lire_Tmax();
+/*Lire_Tmax();
 Lire_Tel();
-alimTel_SetVal(); // Alimentation du module GSM
+alimTel_SetVal(); // Alimentation du module GSM*/
 
 
 for(;;) {
@@ -156,15 +156,14 @@ for(;;) {
 	if(int_10s == 1) //chaque 10 secondes
 	{
 		//lecture des temperatures
-
-
+		Test_Alimentation();
 		t1=Temperature1();
 		t2=Temperature2();
 		Temp1 = t1;
 		Temp2 = t2;
 
 	  // log it to the file on the SD card
-	  Ecrire_Temperature(Temp1, Temp2);
+	 // Ecrire_Temperature(Temp1, Temp2);
 
 	  //si une des temperatures est supperieure a son seuil
 	  if( (t1>t1m) || (t2>t2m) )
