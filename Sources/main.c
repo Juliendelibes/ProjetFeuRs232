@@ -156,11 +156,15 @@ for(;;) {
 	if(int_10s == 1) //chaque 10 secondes
 	{
 		//lecture des temperatures
-		Test_Alimentation();
+
 		t1=Temperature1();
 		t2=Temperature2();
 		Temp1 = t1;
 		Temp2 = t2;
+//test alim
+		Test_Alimentation();
+		return Test_Alimentation();
+		uart1_CRLF();
 
 	  // log it to the file on the SD card
 	 // Ecrire_Temperature(Temp1, Temp2);

@@ -94,11 +94,11 @@
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\interruption_10s.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\uart1.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Project_Settings\Startup_Code\startup.c</PathName>
-      <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\Alimentation.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\BB_Projet.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\Events.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\RTC.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\Temperature.c</PathName>
+      <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\Test_Alimentation.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\alerteGSM.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\main.c</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\stockage_information.c</PathName>
@@ -157,11 +157,11 @@
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\integer.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\interruption_10s.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Generated_Code\uart1.h</PathName>
-      <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\Alimentation.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\BB_Projet.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\Events.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\RTC.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\Temperature.h</PathName>
+      <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\Test_Alimentation.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\alerteGSM.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Sources\stockage_information.h</PathName>
       <PathName>D:\Tempprojet\cartesd_temperature_gsm_ok01\Static_Code\IO_Map\MK64F12.h</PathName>

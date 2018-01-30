@@ -11,7 +11,7 @@
 #include "BB_Projet.h"
 
 
-unsigned short Test_Alimentation(void);
+bool Test_Alimentation(void);
 
 
 
