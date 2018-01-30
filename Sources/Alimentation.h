@@ -5,16 +5,17 @@
  *      Author: install
  */
 
-#ifndef SOURCES_TEST_ALIMENTATION_H_
-#define SOURCES_TEST_ALIMENTATION_H_
+#ifndef SOURCES_ALIMENTATION_H_
+#define SOURCES_ALIMENTATION_H_
 
 #include "BB_Projet.h"
 
 
 bool Test_Alimentation(void);
+unsigned int Test_Batterie(void);
 
 
 
 
 
-#endif /* SOURCES_TEST_ALIMENTATION_H_ */
+#endif /* SOURCES_ALIMENTATION_H_ */

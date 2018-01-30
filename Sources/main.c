@@ -161,15 +161,32 @@ for(;;) {
 		t2=Temperature2();
 		Temp1 = t1;
 		Temp2 = t2;
-//test alim
-		Test_Alimentation();
-		return Test_Alimentation();
-		uart1_CRLF();
+
+
+		//test batterie
+		Test_Batterie();
+
+		//test allim
+		if( Test_Alimentation() == 0 )
+		{
+			uart1_SendStr("Tension non ok");
+			uart1_CRLF();
+		}
+
+		else
+		{
+			uart1_SendStr("Tension ok");
+			uart1_CRLF();
+		}
+
+		//return Test_Alimentation();
+		//uart1_CRLF();
 
 	  // log it to the file on the SD card
 	 // Ecrire_Temperature(Temp1, Temp2);
 
 	  //si une des temperatures est supperieure a son seuil
+
 	  if( (t1>t1m) || (t2>t2m) )
 	  {
 	  	Envoie_Alerte(tel1);		// envoie d'un SMS d'alerte

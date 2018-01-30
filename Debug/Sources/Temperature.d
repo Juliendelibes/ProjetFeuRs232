@@ -123,7 +123,7 @@ Sources/Temperature.o: ../Sources/Temperature.c \
  D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/CPU_Config.h \
  ../Sources/Temperature.h ../Sources/BB_Projet.h \
  ../Sources/stockage_information.h ../Sources/alerteGSM.h \
- ../Sources/RTC.h ../Sources/Test_Alimentation.h
+ ../Sources/RTC.h ../Sources/Alimentation.h
 
 D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/Cpu.h:
 
@@ -379,4 +379,4 @@ D:/Tempprojet/cartesd_temperature_gsm_ok01/Generated_Code/CPU_Config.h:
 
 ../Sources/RTC.h:
 
-../Sources/Test_Alimentation.h:
+../Sources/Alimentation.h:
