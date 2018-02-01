@@ -121,7 +121,9 @@ int main(void)
 	extern char jour;
 	extern char mois;
 	extern char an;
-
+	int chaine_recup;
+	int Tel;
+	int i;
 
 
 
@@ -153,6 +155,21 @@ alimTel_SetVal(); // Alimentation du module GSM*/
 
 for(;;) {
 
+	Ecrire_Tel("tel,0645254236");
+
+	for(;;)
+	{
+	Lire_Tel();
+	/*
+	 * chaine_recup[15]="tel,0645254236";
+	 * Tel[15]="";
+	 *
+	 * for(i=0;i<15;i++)
+	 * {
+	 * 	Tel[i]=chaine_recup[5+i];
+	 * }
+	 * 	 */
+	}
 	if(int_10s == 1) //chaque 10 secondes
 	{
 		//lecture des temperatures

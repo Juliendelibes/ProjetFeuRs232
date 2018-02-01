@@ -40,7 +40,7 @@ else
 unsigned int Test_Batterie(void)
 {
 	double q=65536;			//
-	unsigned short Tb;				//
+	unsigned short Tb;		//
 	unsigned short Tbat;	//
 
 	//Mesure de l'ADC sur channel 1 de la tension de batterie
